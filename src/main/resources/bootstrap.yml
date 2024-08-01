@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: consumer-demo # Spring 应用名
+  profiles:
+    active: dev # 读取dev环境配置文件
+  datasource:
+    dynamic:
+      primary: master
+      strict: false
+      datasource:
+        master:
+          url: jdbc:mysql://127.0.0.1:3306/hmblogs?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+          username: root
+          password: 123456
+        powerjob:
+          url: jdbc:mysql://127.0.0.1:3306/slave?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+          username: root
+          password: 123456
+server:
+  port: 18083
+

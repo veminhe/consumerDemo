@@ -1,0 +1,13 @@
+2024-07-16 11:33:33.040 WARN  [main] com.alibaba.nacos.client.logging.NacosLogging.loadConfiguration:64 : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from null
+2024-07-16 11:33:33.437 WARN  [main] com.alibaba.nacos.client.logging.NacosLogging.loadConfiguration:64 : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from null
+2024-07-16 11:33:35.692 WARN  [main] com.netflix.config.sources.URLConfigurationSource.<init>:126 : No URLs will be polled as dynamic configuration sources.
+2024-07-16 11:33:35.695 WARN  [main] com.netflix.config.sources.URLConfigurationSource.<init>:126 : No URLs will be polled as dynamic configuration sources.
+2024-07-16 11:33:35.935 WARN  [main] com.alibaba.nacos.client.logging.NacosLogging.loadConfiguration:64 : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from null
+2024-07-16 15:48:05.224 WARN  [Thread-18] com.alibaba.nacos.common.notify.NotifyCenter.shutdown:136 : [NotifyCenter] Start destroying Publisher
+2024-07-16 15:48:05.224 WARN  [Thread-21] com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 : [HttpClientBeanHolder] Start destroying common HttpClient
+2024-07-16 15:48:05.224 WARN  [Thread-18] com.alibaba.nacos.common.notify.NotifyCenter.shutdown:153 : [NotifyCenter] Destruction of the end
+2024-07-16 15:48:05.225 WARN  [Thread-21] com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 : [HttpClientBeanHolder] Destruction of the end
+2024-07-16 15:48:05.656 WARN  [SpringContextShutdownHook] com.alibaba.nacos.client.naming.shutdown:74 : [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-07-16 15:48:05.656 WARN  [SpringContextShutdownHook] com.alibaba.nacos.client.naming.shutdown:81 : [NamingHttpClientManager] Destruction of the end
+2024-07-16 15:48:05.657 WARN  [SpringContextShutdownHook] com.alibaba.nacos.client.naming.shutdown:74 : [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-07-16 15:48:05.657 WARN  [SpringContextShutdownHook] com.alibaba.nacos.client.naming.shutdown:81 : [NamingHttpClientManager] Destruction of the end
